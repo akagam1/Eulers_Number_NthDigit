@@ -6,7 +6,7 @@ def factorial(n):
 
 def euler(m):
     e = 1
-    for x in range(1,21):
+    for x in range(1,101):
         e = e + 1/factorial(x)
         #Construct a formatted string
         fmt_string = '%.' + str(m) + 'f'
